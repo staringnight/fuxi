@@ -6,7 +6,8 @@
 
     <groupId>com.dazhi100</groupId>
     <artifactId>dzyx-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
@@ -43,12 +44,10 @@
     <distributionManagement>
         <snapshotRepository>
             <id>dzyx</id>
-            <name>Nexus Mirror.</name>
             <url>https://mvn.dazhi100.com/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>dzyx</id>
-            <name>Nexus Mirror.</name>
             <url>https://mvn.dazhi100.com/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
