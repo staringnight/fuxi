@@ -12,5 +12,7 @@ public class GradeApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GradeApplication.class, args);
+
+        System.out.println("测试commit");
     }
 }
