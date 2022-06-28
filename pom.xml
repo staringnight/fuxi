@@ -19,8 +19,7 @@
         <druid-spring-boot.version>1.2.9</druid-spring-boot.version>
         <mybatis-spring-boot.version>2.2.2</mybatis-spring-boot.version>
         <spring-cloud-gateway.version>3.1.1</spring-cloud-gateway.version>
-        <springfox-swagger.version>3.0.0</springfox-swagger.version>
-        <swagger-spring-boot.version>2.0.2.RELEASE</swagger-spring-boot.version>
+        <springdoc.version>1.6.9</springdoc.version>
         <netty.version>4.1.73.Final</netty.version>
         <hutool-all.version>5.8.2</hutool-all.version>
         <guava.version>31.1-jre</guava.version>
@@ -94,14 +93,25 @@
                 <version>${mybatis-spring-boot.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.spring4all</groupId>
-                <artifactId>swagger-spring-boot-starter</artifactId>
-                <version>${swagger-spring-boot.version}</version>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>${springdoc.version}</version>
+            </dependency>
+            <!-- springdoc ui -->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-webflux-ui</artifactId>
+                <version>${springdoc.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-boot-starter</artifactId>
-                <version>${springfox-swagger.version}</version>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-webflux-core</artifactId>
+                <version>${springdoc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-webmvc-core</artifactId>
+                <version>${springdoc.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.netty</groupId>
@@ -143,11 +153,11 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>dzyx</id>
+            <id>dzyx-snapshots</id>
             <url>https://mvn.dazhi100.com/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>dzyx</id>
+            <id>dzyx-releases</id>
             <url>https://mvn.dazhi100.com/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
