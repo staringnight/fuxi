@@ -153,11 +153,11 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>dzyx-snapshots</id>
+            <id>dzyx</id>
             <url>https://mvn.dazhi100.com/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>dzyx-releases</id>
+            <id>dzyx</id>
             <url>https://mvn.dazhi100.com/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
