@@ -27,6 +27,7 @@
         <mapstruct.version>1.5.1.Final</mapstruct.version>
         <lombok.version>1.18.24</lombok.version>
         <okhttp.version>4.10.0</okhttp.version>
+        <xxljob.version>2.3.1</xxljob.version>
     </properties>
 
     <dependencyManagement>
@@ -154,6 +155,11 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.xuxueli</groupId>
+                <artifactId>xxl-job-core</artifactId>
+                <version>${xxljob.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
