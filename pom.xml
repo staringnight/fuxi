@@ -12,7 +12,7 @@
     <properties>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
-        <spring-boot.version>2.6.3</spring-boot.version>
+        <spring-boot.version>2.6.6</spring-boot.version>
         <redisson.version>3.16.8</redisson.version>
         <rocketmq-spring-boot.version>2.2.2</rocketmq-spring-boot.version>
         <rocketmq.version>4.9.2</rocketmq.version>
@@ -67,12 +67,6 @@
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-srvutil</artifactId>
                 <version>${rocketmq.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>fastjson</artifactId>
-                        <groupId>com.alibaba</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
