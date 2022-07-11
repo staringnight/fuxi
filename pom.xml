@@ -28,7 +28,7 @@
         <lombok.version>1.18.24</lombok.version>
         <okhttp.version>4.10.0</okhttp.version>
         <xxljob.version>2.3.1</xxljob.version>
-        <jakarta.json.version>2.13.1</jakarta.json.version>
+        <jakarta.json.version>2.1.0</jakarta.json.version>
     </properties>
 
     <dependencyManagement>
