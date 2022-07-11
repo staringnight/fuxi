@@ -27,6 +27,7 @@
         <mapstruct.version>1.5.1.Final</mapstruct.version>
         <lombok.version>1.18.24</lombok.version>
         <okhttp.version>4.10.0</okhttp.version>
+        <jakarta.json.version>2.13.1</jakarta.json.version>
     </properties>
 
     <dependencyManagement>
@@ -37,6 +38,11 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <artifactId>jakarta.json-api</artifactId>
+                <groupId>jakarta.json</groupId>
+                <version>${jakarta.json.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
